@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Logs and runtime files
+*.log
+debug.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.git_backup/
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Datasets: Raw images (Precomputed embeddings in .npy and .pkl are tracked)
+src/data/caltech101/images/
+src/data/raw_images/sample_synthetic/
+src/gui/data/
+
+# Scratch files
+CLAUDE.md
